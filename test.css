@@ -1,0 +1,203 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#navbar-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    background: #111;
+    color: #eaafc8;
+}
+
+.navbar-brand {
+    flex-grow: 1;
+    color: #eaafc8;
+    padding-left: 10px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-top-search {
+    flex-grow: 3;
+}
+
+#navbar-top-search input[type=text] {
+    color: #eaafc8;
+    background: #333;
+    border: 0;
+    padding: 0;
+    margin-top: 7px;
+    margin-left: 10%;
+    width: 80%;
+    vertical-align: top;
+}
+
+#navbar-top-search button {
+    color: #777;
+    background: #333;
+    border: 0;
+    margin-top: 7px;
+    height: 24px;
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+#navbar-top-search button:hover {
+    color: #fff;
+    background: #eaafc8;
+}
+
+#navbar-top-greeting {
+    text-align: right;
+    flex-grow: 1;
+    width: 20%;
+    float: right;
+    vertical-align: center;
+}
+
+.navbar-text {
+    padding-right: 10px;
+    vertical-align: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#profile-snapshot {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 95vh;
+
+}
+
+#post-sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+#post-quick-view {
+    width: 60%;
+    background: #E9E4F0;
+    min-height: 95vh;
+}
+
+#post-detailed-view {
+    width: 40%;
+    background: #ddd;
+    min-height: 95vh;
+}
+
+.container-profile {
+    color: #eaafc8;
+    background: #333;
+    min-height: 95vh;
+}
+
+.profile-img {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.container-profile-name {
+    padding: 10px;
+    text-align: center;
+}
+
+.container-profile-desc {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    border-bottom: solid 3px #eac;
+}
+
+.profile-desc-text {
+    font-size: .7rem;
+}
+
+.profile-info-text {
+    font-size: .7rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container-post {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+        #eaafc8,
+        #654ea3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+        #eaafc8,
+        #654ea3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-post-header {
+    text-align: left;
+    color: white;
+}
+
+.container-post-content {
+    text-align: center;
+    color: white;
+}
+
+.container-post-information {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    font-size: .5rem;
+}
+
+.container-post-comment {
+    margin-left: 5px;
+}
+
+.post-information-text {
+    margin-left: 5px;
+}
+
+.like-button-pressed {
+    font-size: .7rem;
+    color: white;
+}
+
+.container-comment {
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+.comment-information-text {
+    font-size: .5rem;
+}
